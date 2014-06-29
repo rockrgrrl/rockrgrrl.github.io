@@ -1,0 +1,117 @@
+body {
+	background-color: #F0E0FF;
+	overflow: scroll
+}
+
+
+header {
+	background-color: #303030;
+	height: auto;
+	padding-top: 10px;
+	padding-bottom: 10px:;
+	overflow: hidden
+}
+
+h2 {
+	font-family: "Trebuchet MS", Helvetica, sans-serif; 
+	font-size: 40px;
+	margin-left: 100px;
+	padding: 50px;
+	color: #FFFFFF;
+}
+
+#post-header {
+	text-align: left;
+	color: #303030
+}
+
+#post-date, #post-title, article, p {
+	font-family: Arial, Helvetica, sans-serif
+}
+
+#post-date {
+	font-size: 18px;
+	letter-spacing: 1px;
+	font-weight: 500
+}
+
+#post-title {
+	font-size: 22px;
+	letter-spacing: 1px;
+	font-weight: 800
+}
+
+
+article {
+	text-align: left;
+	padding: 40px;
+	width: 60%;
+}
+
+p {
+	font-size: 18px;
+
+}
+
+#posts {
+	position: fixed;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: #F2F2F2;
+	width: 200px;
+	padding: 42px;
+
+}
+
+#posts a {
+	font-size: 16px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	line-height: 5px;
+	text-decoration: none
+
+}
+
+#posts ul {
+	list-style-type: none;
+}
+
+#posts li {
+	padding: 5px;
+	margin-left: 20px;
+	margin-top: 10px
+}
+
+#posts ul li a {
+	color: black;
+}
+
+#posts:hover {
+	opacity: 2;
+}
+
+#posts ul li a:hover {
+	color: white;
+}
+
+
+#contacts {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 16px;
+	height: 50px;
+	padding-top: 800px;
+	text-align: center;
+}
+
+#contacts a {
+	text-decoration: none;
+	color: black;
+}
+
+#contacts:hover {
+	opacity: 2;
+}
+
+#contacts a:hover {
+	color: white;
+}
