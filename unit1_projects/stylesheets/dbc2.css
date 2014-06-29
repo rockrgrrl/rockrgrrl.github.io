@@ -1,0 +1,110 @@
+body {
+	background: #66CCFF
+}
+
+header {
+	margin-top: -20px;
+	height: 100px;
+	background: #FF6666;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 36px;
+	text-align: center;
+	color: #FFCC66
+}
+
+#content {
+	background: #FFCC66;
+	border-radius: 20px;
+	width: 1000px;
+	height: 100%;
+	margin: auto;
+	padding-bottom: 50px
+}
+
+aside {
+	background: #FFCC66;
+	border-radius: 40px;
+	float: left;
+	left: 40px;
+	width: 300px;
+	height: 300px;
+	margin-top: -885px
+
+}
+
+aside ul {
+	list-style-type: none;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	padding: 10px;
+	text-indent: 5px;
+
+
+}
+
+aside a {
+	text-decoration: none;
+	padding: 18px;
+}
+
+aside li {
+	padding: 10px;
+	margin-left: 20px;
+	margin-top: 26px;
+}
+
+aside ul li a {
+	color: gray
+}
+
+aside:hover {
+	opacity: 2;
+}
+
+aside ul li a:hover {
+	color: white;
+}
+
+h3 {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 22px;
+	color: #FF6666;	
+	text-indent: 10px;
+	
+}
+
+p, ul {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 18px;
+	margin: 15px
+}
+
+section {
+	margin-top: 60px;
+	padding-top: 20px;
+}
+
+
+#contact {
+	background: #FF6666;
+	height: 50px;
+	padding-top: -20px;
+	margin-top: 60px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	text-align: center;
+}
+
+#contact a {
+	text-decoration: none;
+	color: white;
+}
+
+#contact:hover {
+	opacity: 2;
+}
+
+#contact a:hover {
+	color:gray;
+}
+
