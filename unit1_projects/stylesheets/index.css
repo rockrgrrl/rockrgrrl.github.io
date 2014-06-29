@@ -1,0 +1,53 @@
+body {
+	background-color: #F0E0FF;
+	overflow: scroll;
+}
+header {
+	background-color: #303030;
+	height: auto;
+	padding-top: 10px;
+	padding-bottom: 10px:;
+	overflow: hidden
+}
+
+h2 {
+	font-family: "Trebuchet MS", Helvetica, sans-serif; 
+	font-size: 70px;
+	margin-left: 100px;
+	padding: 30px;
+	color: #FFFFFF;
+}
+
+#header-nav {
+	margin-left: 60px;
+	
+	
+}
+
+#header-nav a{
+	font-family: "Trebuchet MS", Helvetica, sans-serif; 
+	font-size: 40px;
+	color: white;
+	text-decoration: none;
+}
+
+#header-nav a:hover {
+	color: gray
+}
+
+footer {
+	position: fixed;
+	display: inline-block;
+	left: 45%;
+	bottom: 10px;
+	
+}
+
+#contacts a {
+	text-decoration: none;
+	color: black;
+}
+
+#contacts a:hover {
+	color: #8C8C8C;
+}
