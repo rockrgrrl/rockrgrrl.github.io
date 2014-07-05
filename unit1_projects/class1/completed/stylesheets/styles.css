@@ -162,7 +162,7 @@ header:after {
 /* Organizations */
 #organizations {
   clear: both;
-  height: 500px;
+  height: auto;
 }
 
 #organizations ul {
@@ -294,14 +294,6 @@ footer:after {
     padding: 15px;
     width: 35%;
 
-  }
-
-  #famous article.break{ 
-    clear: none;
-  }
-
-  #organizations {
-    height: auto;
   }
 
   #organizations ul li {
