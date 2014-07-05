@@ -271,7 +271,7 @@ footer:after {
     width 100%;
   }
 
-  h1{
+  header h1{
     width: 100%;
   }
 
@@ -279,6 +279,13 @@ footer:after {
     float:none;
     display: inline-block;
     margin:auto;
+  }
+
+  #famous article.woman {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+
   }
 
   footer{
@@ -291,8 +298,14 @@ footer:after {
   header nav li {
     width: 100%;
   }
+
+  #famous article.woman {
+    float:none;
+    min-height: 250px;
+    width: auto;
+  }
   
-  
+
   
 
 
