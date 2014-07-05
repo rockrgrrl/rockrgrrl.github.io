@@ -302,10 +302,6 @@ footer:after {
     margin-right: auto;
   }
 
-  #organizations img {
-    display: none;
-  }
-
   footer{
     text-align: center;
   }
@@ -333,6 +329,10 @@ footer:after {
     margin-bottom: 0px;
   }
 
+  #organizations li hover:img {
+    display: none;
+  }
+  
   .jump.up {
     display: none;
   }
