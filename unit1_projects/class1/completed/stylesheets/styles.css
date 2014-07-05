@@ -289,14 +289,14 @@ footer:after {
     display: inline-block;
     vertical-align: top;
     min-height: 250px;
-    margin: 15px;
+    margin: 10px;
     padding: 15px;
-    width: 30%;
+    width: 35%;
 
   }
 
 
-  #organizations {
+  #organizations ul {
 
   }
 
