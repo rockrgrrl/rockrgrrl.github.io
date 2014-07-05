@@ -345,7 +345,11 @@ footer:after {
     margin-bottom: 0px;
   }
 
-  .jump {
+  .jump.up {
+    display: none;
+  }
+
+  .jump.down {
     display: none;
   }
 
