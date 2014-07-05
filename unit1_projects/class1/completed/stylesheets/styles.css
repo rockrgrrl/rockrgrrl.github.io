@@ -253,3 +253,46 @@ footer:after {
   font-weight: normal;
   font-style: normal;
 }
+
+@viewport {
+  width: device-width;
+  zoom: 1;
+}
+
+@media screen and (max-width: 960px)  {
+  body{
+    width: 100%;
+  }
+
+  header{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    width 100%;
+  }
+
+  h1{
+    width: 100%;
+  }
+
+  header nav {
+    float:none;
+    margin:auto;
+  }
+
+  footer{
+    text-align: center;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  header{
+    width:100%;
+  }
+
+  h1{
+    font-size: 1em;
+  }
+
+}
