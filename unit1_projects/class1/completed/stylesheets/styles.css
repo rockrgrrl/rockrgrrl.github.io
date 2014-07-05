@@ -281,15 +281,40 @@ footer:after {
     margin:auto;
   }
 
+  #main #famous {
+    text-align: center;
+  }
+
   #famous article.woman {
     float: none;
     display: inline-block;
     vertical-align: top;
+    min-height: 250px;
+    margin: 15px;
+    padding: 15px;
+    width: 45%;
 
+  }
+
+  #organizations ul li {
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #organizations img {
+    display: block;
+    width: 0%;
+    margin: 0;
+    padding: 0;
   }
 
   footer{
     text-align: center;
+  }
+
+  footer .nav {
+    float: none;
   }
 
 }
@@ -303,7 +328,10 @@ footer:after {
     float:none;
     min-height: 250px;
     width: auto;
+    margin: 0px;
+    padding: 5px;
   }
+
   
 
   
