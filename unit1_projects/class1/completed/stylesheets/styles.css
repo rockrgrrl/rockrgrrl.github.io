@@ -329,10 +329,10 @@ footer:after {
     margin-bottom: 0px;
   }
 
-  #organizations li hover:img {
+  #organizations li:hover img {
     display: none;
   }
-  
+
   .jump.up {
     display: none;
   }
