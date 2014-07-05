@@ -2,11 +2,10 @@
 body {
   background-color: rgb(241, 241, 241);
   font-family: 'Lato', Arial, sans-serif;
-  font-size: 16px;
+  font-size: 1em;
   font-weight: 300;
   line-height: 1.2em;
   margin: 0px auto;
-  min-width: 960px;
   width: 100%;
 }
 
@@ -292,12 +291,12 @@ footer:after {
     min-height: 250px;
     margin: 15px;
     padding: 15px;
-    width: 45%;
+    width: 30%;
 
   }
 
   #organizations ul li {
-    max-width: 75%;
+    max-width: 65%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -324,6 +323,10 @@ footer:after {
     width: 100%;
   }
 
+  header h1 {
+    font-size: 1em;
+  }
+
   #famous article.woman {
     float:none;
     min-height: 250px;
@@ -332,9 +335,8 @@ footer:after {
     padding: 5px;
   }
 
-  
-
-  
-
+  h2 {
+    margin-bottom: 0px;
+  }
 
 }
