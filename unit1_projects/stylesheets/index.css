@@ -71,7 +71,6 @@ footer {
 
   header h2{
     padding: 0px;
-    width: 100%;
   }
 
   header nav {
@@ -85,7 +84,7 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
-	 h2 {
+	 header h2 {
 		font-size: 1em;
 	}
 }
