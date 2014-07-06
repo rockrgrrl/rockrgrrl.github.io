@@ -50,7 +50,14 @@ article {
 
 p {
 	font-size: 18px;
+	padding-bottom: 10px;
 
+}
+
+img {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20%;
 }
 
 #posts {
@@ -91,7 +98,7 @@ p {
 }
 
 #posts ul li a:hover {
-	color: white;
+	color: #5200CC;
 }
 
 
