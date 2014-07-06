@@ -60,7 +60,8 @@ footer {
 
 @media screen and (max-width: 480px) {
  	header {
- 		margin: auto;
+ 		margin: 0px;
+ 		text-align: center;
  	}
 
  	header h2{ 
@@ -72,6 +73,10 @@ footer {
  	}
 
  	footer {
- 		display: none;
+ 		visibility: hidden;
+ 	}
+
+ 	#contacts {
+ 		visibility: hidden;
  	}
 }
