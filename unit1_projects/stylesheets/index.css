@@ -76,12 +76,12 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
- 	header {
- 		text-align: center;
- 		overflow:scroll;
- 	}
-
-	h2 {
+ 	
+	header h2 {
 		font-size: 1em;
+	}
+
+	#header-nav {
+		font-size: 0.8em;
 	}
 }
