@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../unit1_projects/stylesheets/blog.css">
+	<title>Gina Krieb's Blog</title>
+<head>
+
+<body>
+
+ 	<header>
+ 		<h2>a little blog...by gina</h2>
+ 	</header>
+
+ 	<article>
+ 		<div id="post-header">
+ 			<div id="post-title">Padding and Borders and Margins...Oh My!</div>
+ 			<div id="post-date">7/5/14</div>
+ 		</div>
+
+ 		
+ 		<p>In this post, I'm going to discuss padding, borders, and margins. What are they? How do they work? How do you use them in your website design? To illustrate, let's take a look at the box model.</p>
+
+ 		<p><strong>The Box Model</strong><br>
+ 			In an HTML document, all elements are represented as boxes. In CSS, the "box model" is used in design and layout. What is this box model anyway? It's basically a box that surrounds HTML elements. It's made up of four parts:<br>
+ 			1. <strong>Content:</strong> Positioned in the middle of the box. This is where text and images appear. Can set a background color to it.<br>
+ 			2. <strong>Padding:</strong> Surrounds the content. Background color of the box is applied to it. Can set size for top, right, left, and bottom.<br>
+ 			3. <strong>Border:</strong> Surrounds the padding. Can specifically set a border color, width, and style (ex. dotted, dashed, solid).<br>
+ 			4. <strong>Margin:</strong> Surrounds the border. It does not have a background color; it's totally transparent. Can set size for top, right, bottom, and left.  </p>
+
+ 		<img src="../unit1_projects/images/boxmodel.png" class="box-model">
+
+ 		<p>It is important to factor in all of these parts when calculating the full width of an element in CSS.<br>
+ 			For example:</p>
+
+ 		<img src="../unit1_projects/images/code_box_model.png" class="box-model">
+
+ 		<p>The total width of this element is 250px. Did you think it was 225px?<br>
+ 		 	Let's break it down:</p>
+ 		<p> 200px (width of content)<br>
+ 		   + 10px (5px for left padding + 5px for right padding)<br>
+ 		   + 10px (5px for left border + 5px for right border)<br>
+ 		   + 30px (15px for left margin + 15px for right margin)<br>
+ 		   =250px</p>
+ 		<p>So,<br>
+ 		   Total element width = width + left padding + right padding + left border + right border + left margin + right margin</p>
+
+ 		<p>Hopefully this helps your understanding of padding, borders, and margins. Now get to work on that website you're building!</p>   
+ 	</article>
+
+ 	<aside>
+ 		<div id="posts">
+ 		<ul>
+ 			<li><a href="../index.html"><strong>HOME</strong></a></li>
+ 			<li><a href="week1_technical.html">Favorite Sites</a></li>
+ 			<li><a href="week1_cultural.html">The DBC Experience</a></li>
+ 			<li><a href="wireframe_sites.html">Wireframing</a></li>
+ 			<li><a href="#">Padding and Borders and Margins...Oh My!</a></li>
+ 		</ul>
+ 		</div>
+ 	</aside>
+
+ 	<footer>
+ 		<div id="contacts">
+ 			<a href="mailto:ginakrieb@gmail.com">ginakrieb@gmail.com</a>
+ 			<a href="https://facebook.com/gina.camaioni.7" class="facebook"><img src="../unit1_projects/images/facebook.png" alt="Facebook logo"></a>
+ 			<a href="https://twitter.com/GinaKrieb" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @GinaKrieb</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+ 		</div>
+ 	</footer>
+
+</body>
+</html>
