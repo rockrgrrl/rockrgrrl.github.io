@@ -58,33 +58,37 @@ footer {
 }
 
 @media screen and (max-width: 960px) {
-  body{
-    width: 100%;
-  }
+	body {
+		width:100%;
+	}
+}
 
-  header {
-  	padding: 0px;
-    margin: 0px;
-    text-align: center;
-    width: 100%;
-  }
+  	header {
+  		padding: 0px;
+    	margin: 0px;
+    	width: 100%;
+  	}
 
-  header h2{
-    padding: 0px;
-  }
+  	h2	{
+    	padding: 0px;
+  	}
 
-  header nav {
-  	display: inline-block;
-  	margin: auto;
-  }
+  	header nav {
+  		margin: auto;
+  	}
 
-  footer {
-  	text-align: center;
-  }
+  	footer {
+  		text-align: center;
+  	}
 }
 
 @media screen and (max-width: 480px) {
-	 header h2 {
+ 	header {
+ 		text-align: center;
+ 	}
+
+	h2 {
 		font-size: 1em;
+		margin-left: 0;
 	}
 }
