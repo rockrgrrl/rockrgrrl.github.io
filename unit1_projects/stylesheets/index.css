@@ -7,6 +7,7 @@ header {
 	height: auto;
 	padding-top: 10px;
 	padding-bottom: 10px:;
+	overflow: scroll;
 }
 
 h2 {
@@ -58,8 +59,7 @@ footer {
 
 
 @media screen and (max-width: 480px) {
- 	
-	header h2 {
+ 	header h2 {
 		font-size: 2.5em;
 	}
 
@@ -67,6 +67,7 @@ footer {
 		font-size: 1.0em;
  	}
 
-	footer {
+	footer #contacts a {
 		visibility: hidden;
+	}
 }
