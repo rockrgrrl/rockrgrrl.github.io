@@ -57,14 +57,15 @@ footer {
 }
 
 
-
 @media screen and (max-width: 480px) {
  	
 	header h2 {
-		font-size: 1em;
+		font-size: 2em;
+		margin-left: 0;
 	}
 
-	#header-nav {
+	#header-nav a {
 		font-size: 0.8em;
+		margin-left: 0;
 	}
 }
