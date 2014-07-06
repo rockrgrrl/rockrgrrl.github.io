@@ -54,7 +54,7 @@ p {
 
 }
 
-img {
+img.box-model {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	margin-left: 20%;
