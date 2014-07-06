@@ -66,17 +66,18 @@ footer {
 
  	header h2{ 
  		font-size: 2.5em;
+ 		margin-left: 0px;
  	}
+
+	#header-nav {
+		margin-left: 0px;
+	}
 
  	#header-nav a {
  		font-size: 1.5em;
  	}
 
- 	footer {
- 		visibility: hidden;
- 	}
-
- 	#contacts {
- 		visibility: hidden;
+ 	footer #contacts {
+ 		background-size: 25%
  	}
 }
