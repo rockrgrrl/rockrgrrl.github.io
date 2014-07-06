@@ -59,15 +59,15 @@ footer {
 
 
 @media screen and (max-width: 480px) {
- 	header h2 {
-		font-size: 2.5em;
-	}
-
-	#header-nav a {
-		font-size: 1.0em;
+ 	header {
+ 		text-align: left
+ 	}
+ 	
+ 	header h2{ 
+ 		font-size: 2.5em;
  	}
 
-	footer #contacts a {
-		visibility: hidden;
-	}
+ 	#header-nav a {
+ 		font-size: 1.5em;
+ 	}
 }
