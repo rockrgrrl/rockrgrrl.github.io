@@ -1,83 +1,105 @@
-body {
-	background-color: #F0E0FF;
-	overflow: scroll;
+body{
+	background-color: #35B899;
+	position: fixed;
+	margin: 0 auto;
+	width: 100%;
 }
+
 header {
-	background-color: #303030;
-	height: auto;
-	padding-top: 10px;
-	padding-bottom: 10px:;
-	overflow: scroll;
+	background-color: #91CC77;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100px;
 }
 
-h2 {
-	font-family: "Trebuchet MS", Helvetica, sans-serif; 
-	font-size: 4.375em;
-	margin-left: 100px;
-	padding: 30px;
-	color: #FFFFFF;
+header nav {
+	padding-top: 20px;
 }
 
-#header-nav {
-	margin-left: 60px;
-	
-	
+header nav ul {
+	list-style-type: none;
 }
 
-#header-nav a{
-	font-family: "Trebuchet MS", Helvetica, sans-serif; 
-	font-size: 2.5em;
+header nav ul li{
+	display: inline;
+}
+
+header nav ul li a{
+	font-size: 3em;
 	color: white;
 	text-decoration: none;
+	padding-left: 80px;
 }
 
-#header-nav a:hover {
-	color: gray
+.about:hover {
+	color: #C5CC77;
 }
 
-footer {
-	position: fixed;
-	display: inline-block;
-	left: 45%;
-	bottom: 10px;
+.blog:hover {
+	color: #C5CC77;
+}
+
+#name {
+	background-color: #12675F;
+	height: 600px;
+	width: 600px;
+	border-radius: 300px;
+	margin-top: 200px;
+	margin-right: 50%;
+	margin-left: 50%;
+}	
+
+h2 {
+	text-align: center;
+	font-size: 5.5em;
+	padding-top: 40%;
+}
+
+.first-name {
+	color: white;
+}
+
+.last-name {
+	color: #C5CC77;
+}
 	
+footer {
+	background-color: #91CC77;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
 }
 
-#contacts a {
+footer nav{
+	padding-left: 90px;
+}
+
+footer nav a{
+	padding-left: 30px;
+	font-size: 2em;
 	text-decoration: none;
-	color: black;
+	color: white;
 }
 
-#contacts a:hover {
-	color: #8C8C8C;
-}
-
-@viewport {
-  width: device-width;
-  zoom: 1;
+footer nav a:hover{
+	color: #C5CC77;
 }
 
 
-@media screen and (max-width: 480px) {
- 	header {
- 		margin: 0px;
- 		text-align: center;
- 	}
 
- 	header h2{ 
- 		font-size: 2.5em;
- 		margin-left: 0px;
- 	}
 
-	#header-nav {
-		margin-left: 0px;
-	}
+footer nav ul{
+	list-style-type: none;
+}
 
- 	#header-nav a {
- 		font-size: 1.5em;
- 	}
+footer nav ul li{
+	display: inline;
+}
 
- 	footer #contacts {
- 		background-size: 25%
- 	}
+footer nav ul li a{
+	font-size: 1.8em;
+	text-decoration: none;
+	padding: 80px;
 }
