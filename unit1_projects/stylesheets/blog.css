@@ -54,6 +54,10 @@ p {
 
 }
 
+ul {
+	font-size: 18px;
+}
+
 img.box-model {
 	margin-top: 20px;
 	margin-bottom: 20px;
