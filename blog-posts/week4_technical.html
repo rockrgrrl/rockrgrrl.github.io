@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../unit1_projects/stylesheets/blog.css">
+	<title>Gina Krieb's Blog</title>
+<head>
+
+<body>
+
+ 	<header>
+ 		<h2>a little blog...by gina</h2>
+ 	</header>
+
+ 	<article>
+ 		<div id="post-header">
+ 			<div id="post-title">Collections</div>
+ 			<div id="post-date">7/19/14</div>
+ 		</div>
+
+ 		
+ 		<p>Ruby's Enumerable module provides a set of methods to search, sort, and transform collections.<br>I'm going to focus on the group_by method. This method does exactly what you might expect it to do. It splits a collection into groups based on given criteria. It can be used on arrays and hashes.<br>To use this method, you need a block with the criteria by which the items in the collection will be grouped. The result will be a hash. Eash hash key represents a group. Each key's corresponding value is an array holding the members of the group. Some examples might make things clearer.</p>
+
+ 		<p>When used on an array, group_by checks through (iterates through) the array and passes each element to the block. The resulting value of the block is the group in which the element belongs.</p>
+
+ 		<img src="../unit1_projects/images/group_by.png" class="group_by">
+
+ 		<p>Here, each Brady child's name (represented by brady) is passed to the block . The block looks at the length of each brady name. The result is each group with the names that belong to it based on length.</p>
+
+ 		<img src="../unit1_projects/images/group_by2.png" class="group_by">
+
+ 		<p>In this example, the numbers 0 through 12 (represented by number) are passed to the block . The block looks at the remainder of each number when divided by 4. The resulting hash has four groups with keys 0 to 3. Key 1 Group holds numbers that when divided by 4 have remainder of 1. Key 2 Group holds numbers that when divided by 4 have remainder of 2. Key 3 Group holds numbers that when divided by 4 have remainder of 3. Key 0 Group holds numbers that are evenly divisible by 4 (remainder of 0).</p>
+
+ 		<p>When used as a hash, group_by passes each key/value pair to the block.</p>
+
+ 		<img src="../unit1_projects/images/group_by3.png" class="group_by">
+
+ 	</article>
+
+ 	<aside>
+ 		<div id="posts">
+ 		<ul>
+ 			<li><a href="../index.html"><strong>HOME</strong></a></li>
+ 			<li><a href="week1_technical.html">Favorite Sites</a></li>
+ 			<li><a href="week1_cultural.html">The DBC Experience</a></li>
+ 			<li><a href="wireframe_sites.html">Wireframing</a></li>
+ 			<li><a href="week2_technical.html">Padding and Borders and Margins...Oh My!</a></li>
+ 			<li><a href="week3_technical.html">JavaScript: The Good and The Bad</a></li>
+ 			<li><a href="week3_cultural.html">Thinking</a></li>
+ 			<li><a href="#">Collections</a></li>
+ 		</ul>
+ 		</div>
+ 	</aside>
+
+ 	<footer>
+ 		<div id="contacts">
+ 			<a href="mailto:ginakrieb@gmail.com">ginakrieb@gmail.com</a>
+ 			<a href="https://facebook.com/gina.camaioni.7" class="facebook"><img src="../unit1_projects/images/facebook.png" alt="Facebook logo"></a>
+ 			<a href="https://twitter.com/GinaKrieb" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @GinaKrieb</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+ 		</div>
+ 	</footer>
+
+</body>
+</html>
