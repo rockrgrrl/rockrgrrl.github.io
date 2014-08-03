@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../unit1_projects/stylesheets/blog.css">
+	<title>Gina Krieb's Blog</title>
+<head>
+
+<body>
+
+ 	<header>
+ 		<h2>a little blog...by gina</h2>
+ 	</header>
+
+ 	<article>
+ 		<div id="post-header">
+ 			<div id="post-title">Blocks-Procs-Lambdas</div>
+ 			<div id="post-date">8/2/14</div>
+ 		</div>
+
+ 		<p></p>
+
+ 		<p>If you've been learning Ruby, you've probably come across blocks, procs, and lambdas. Do you know what they are? Do you know how they're used? Oh, you don't? Well, read on.</p>
+
+ 		<p></p>
+
+ 		<p><strong><u>Blocks</u></strong><br><br>Blocks are basically a way of grouping code. To get more specific, a block is a piece of code that you supply as part of a method call, which can then be executed from the method. Blocks can be optional. Methods that accept blocks transfer control from the calling method to the block and back again. Using a block to define the task you want the method to do simplifies that task. The code block is part of the method's syntax; it is not an argument.</p>
+ 		<p>Blocks are defined using either do/end statements or curly braces ({ }). A block may take arguments, though they are not required. Block arguments are used at the beginning of the block and are surrounded by pipe characters (| |).</p>
+
+ 		<img src="../unit1_projects/images/blocks.png">
+
+ 		<p>It's been said over and over again, that everything in Ruby is an object. It turns out, that's not entirely true. Blocks are not objects. So, they can't be saved to variables nor do they have all of the abilities of real objects. Enter procs.</p>
+
+ 		<p></p>
+
+ 		<p><strong><u>Procs</u></strong><br><br>Procs are self-contained pieces of code that can be created, saved, and passed in as method arguments. Think of a proc as a saved block; you can name a block and turn it into a proc. To create a proc, call Proc.new and pass in the block that you want saved.</p>
+
+ 		<img src="../unit1_projects/images/proc1.png">
+
+ 		<p>This proc can now be passed to a method in place of a block:</p>
+
+ 		<img src="../unit1_projects/images/proc2.png">
+
+ 		<p>Procs have two major advantages over blocks. First, they are objects with full object abilities. Second, procs help keep code DRY (Don't Repeat Yourself). With a proc, you write the code once and can call it as often as you'd like; unlike a block, where you have to write out the code each time you need it. Oh, and one more bonus with a proc...you can call a proc with a method (as in the above example) or by using Ruby's built-in call method:</p>
+
+ 		<img src="../unit1_projects/images/proc3.png">
+
+ 		<p></p>
+
+ 		<p><strong><u>Lambdas</u></strong><br><br>Just like procs, lambdas are objects. Lambdas are defined in this way:</p>
+
+ 		<img src="../unit1_projects/images/lambda1.png">
+
+ 		<p>Looks just about the same as a proc, doesn't it? You can use lambdas in the same situations as you'd use procs. There are, however, three key differences that set lambdas apart from procs. First, lambdas need to be created explicitly while procs do not. Second, they differ in how they deal with the return keyword. When a lambda returns, control gets passed back to the calling method. When a proc returns, it does not go back to the calling method. Third, a lambda, unlike a proc, pays close attention to the number of arguments passed to it. So if you pass a lambda the wrong number of arguments, an error will be thrown. In the same situation, a proc would just ignore the unexpected arguments.</p>
+ 	</article>
+
+ 	<aside>
+ 		<div id="posts">
+ 		<ul>
+ 			<li><a href="../index.html"><strong>HOME</strong></a></li>
+ 			<li><a href="week1_technical.html">Favorite Sites</a></li>
+ 			<li><a href="week1_cultural.html">The DBC Experience</a></li>
+ 			<li><a href="wireframe_sites.html">Wireframing</a></li>
+ 			<li><a href="week2_technical.html">Padding and Borders and Margins...Oh My!</a></li>
+ 			<li><a href="week3_technical.html">JavaScript: The Good and The Bad</a></li>
+ 			<li><a href="week3_cultural.html">Thinking</a></li>
+ 			<li><a href="week4_technical.html">Collections</a></li>
+ 			<li><a href="week4_cultural.html">A Man's World</a></li>
+ 			<li><a href="week5_technical.html">Ruby's Got Class</a></li>
+ 			<li><a href="week5_cultural.html">Pairing</a></li>
+ 			<li><a href="#">Blocks-Procs-Lambdas</a></li>
+ 			<li><a href="week6_cultural.html">Stereotype Threat</a></li>
+ 		</ul>
+ 		</div>
+ 	</aside>
+
+ 	<footer>
+ 		<div id="contacts">
+ 			<a href="mailto:ginakrieb@gmail.com">ginakrieb@gmail.com</a>
+ 			<a href="https://facebook.com/gina.camaioni.7" class="facebook"><img src="../unit1_projects/images/facebook.png" alt="Facebook logo"></a>
+ 			<a href="https://twitter.com/GinaKrieb" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @GinaKrieb</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+ 		</div>
+ 	</footer>
+
+</body>
+</html>
