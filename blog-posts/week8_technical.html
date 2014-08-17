@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../unit1_projects/stylesheets/blog.css">
+	<title>Gina Krieb's Blog</title>
+<head>
+
+<body>
+
+ 	<header>
+ 		<h2>a little blog...by gina</h2>
+ 	</header>
+
+ 	<article>
+ 		<div id="post-header">
+ 			<div id="post-title">Regex</div>
+ 			<div id="post-date">8-16-14</div>
+ 		</div>
+
+ 		
+ 		<p>When I first saw a regular expression, I was confused, to say the least. I was staring at these letters and special characters bunched together. It just looked like gibberish to me. Surely, I thought, there must be some typos here. This doesn't actually mean anything, right? Why would I want to use such a thing in the code that I was writing? There's no way I can decipher this. What's the point? I'll just avoid regular expressions. They just seem too complicated to understand. Well, it's true that regular expressions can be somewhat overwhelming and intimidating at first glance. However, they prove to be quite useful.</p>
+
+ 		<p>A regular expression, or regex, is used in pattern matching in strings, performing find and replace type operations. Regular expressions can be used to pull information from text such as code, spreadsheets, and documents. With regular expressions, everything is a character. You write patterns to match a specific sequence of characters (or strings). Letters, digits, punctuation, and special characters can be used.</p>
+
+ 		<p>There are a number of regexes that can be used. Too many for the scope of this post. I'm going to touch on just a few to better illustrate how to use them. Let's use the following as a test string:</p>
+
+ 		<img src="../unit1_projects/images/test_string.png">
+
+ 		<p>Now let's say that we want to find all patterns of 'st' at the beginning of any words. We can use the following regex for that:<br><strong>\bst</strong></p>
+
+ 		<img src="../unit1_projects/images/test_string2.png">
+
+ 		<p>The <strong>/b</strong> denotes a word boundary. We can flip that around if we wanted to find all words that end with 'st'.<br><strong>st\b</strong></p>
+
+ 		<img src="../unit1_projects/images/test_string3.png">
+
+ 		<p>What if we wanted to search for a more complex pattern? (This one isn't actually that complex.)<br><strong>er\s\w</strong></p>
+
+ 		<img src="../unit1_projects/images/test_string4.png">
+
+ 		<p>What that did was search for a pattern with consecutive letters 'er' followed by any whitespace character followed by any word character (letter, number, underscore). </p>
+
+ 		<p>For a final example, let's get a little crazy. Ok, it's not too crazy. It's not very practical either. I'm just trying to illustrate the different combinations of regexes that can be used.<br><strong>a..\s\w[tea]</strong></p>
+
+ 		<img src="../unit1_projects/images/test_string5.png">
+
+ 		<p>There, we searched for a pattern of the letter a followed by any two characters (..), followed by any whitespace character (\s), followed by any word character (\w), followed by a single character of t, e, or a ([tea]).</p>
+
+ 		<p>Here's a handy reference chart for all of your regex needs. You can play around with regex at <a href="http://www.rubular.com">Rubular</a>.</p>
+
+ 		<img src="../unit1_projects/images/regex_chart.png">
+ 	</article>
+
+ 	<aside>
+ 		<div id="posts">
+ 		<ul>
+ 			<li><a href="../index.html"><strong>HOME</strong></a></li>
+ 			<li><a href="week1_technical.html">Favorite Sites</a></li>
+ 			<li><a href="week1_cultural.html">The DBC Experience</a></li>
+ 			<li><a href="wireframe_sites.html">Wireframing</a></li>
+ 			<li><a href="week2_technical.html">Padding and Borders and Margins...Oh My!</a></li>
+ 			<li><a href="week3_technical.html">JavaScript: The Good and The Bad</a></li>
+ 			<li><a href="week3_cultural.html">Thinking</a></li>
+ 			<li><a href="week4_technical.html">Collections</a></li>
+ 			<li><a href="week4_cultural.html">A Man's World</a></li>
+ 			<li><a href="week5_technical.html">Ruby's Got Class</a></li>
+ 			<li><a href="week5_cultural.html">Pairing</a></li>
+ 			<li><a href="week6_technical.html">Blocks-Procs-Lambdas</a></li>
+ 			<li><a href="week6_cultural.html">Stereotype Threat</a></li>
+ 			<li><a href="week7_technical.html">SQL vs NoSQL</a></li>
+ 			<li><a href="week7_cultural.html">Values</a></li>
+ 			<li><a href="#">Regex</a></li>
+ 			<li><a href="week8_cultural.html">Dealing With Conflict</a></li>
+ 		</ul>
+ 		</div>
+ 	</aside>
+
+ 	<footer>
+ 		<div id="contacts">
+ 			<a href="mailto:ginakrieb@gmail.com">ginakrieb@gmail.com</a>
+ 			<a href="https://facebook.com/gina.camaioni.7" class="facebook"><img src="../unit1_projects/images/facebook.png" alt="Facebook logo"></a>
+ 			<a href="https://twitter.com/GinaKrieb" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @GinaKrieb</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+ 		</div>
+ 	</footer>
+
+</body>
+</html>
