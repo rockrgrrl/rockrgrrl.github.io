@@ -1,0 +1,100 @@
+html,
+body {
+  height: 100%;
+  background-color: #333;
+}
+body {
+  color: #5bc0de;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+.project-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.head-title {
+  font-size: 100px;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-weight: 600;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #5bc0de;
+}
+
+.head-nav > li {
+  display: inline-block;
+  
+
+}
+.head-nav > li + li {
+  
+  margin-top: 10px;
+  padding-left: 40px;
+}
+.head-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 22px;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 700;
+  color: #fff;  
+}
+
+.head-nav > li > a:hover,
+.head-nav > li > a:focus {
+  border-bottom: 4px dotted;
+  background-color: transparent;
+  border-bottom-color: yellow;
+}
+
+.row{
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.project-title {
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+.btn-default,
+.btn-default:focus {
+  color: #fff;
+  text-shadow: none; 
+  background-color: #5bc0de;
+  border: 3px solid #5bc0de;
+}
+
+.col-lg-6 > p,
+.col-lg-6 .btn-default {
+  max-width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #fff;
+  font-family: 'Comfortaa', cursive;
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+.col-lg-6 .btn-default:hover {
+  color: #5bc0de;
+  text-shadow: none;
+  background-color: #fff;
+  border: 3px solid #fff;
+}
+
+.foot {
+  color: #999; 
+}
+
+
+.col-lg-6 .btn-default:hover {
+  color: #5bc0de;
+  text-shadow: none;
+  background-color: #fff;
+  border: 3px solid #fff;
+}
