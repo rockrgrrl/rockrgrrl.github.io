@@ -66,5 +66,28 @@ p,
 }
 
 .footer {
-  padding-top: 30px;
+    position: fixed;
+    height: 60px;
+    bottom: 0;
+}
+
+/*projects page*/
+.thumbnail {
+  background-color: #333;
+  margin-top: 20px;
+  border: none;
+}
+
+.thumbnail img {
+  height: 300px;
+  width: 500px;
+}
+
+.caption h3 a {
+  font-family: 'Comfortaa', cursive;
+  color: #5bc0de;
+}
+
+.caption p {
+  font-size: 18px;
 }
